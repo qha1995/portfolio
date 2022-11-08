@@ -45,6 +45,7 @@ const Cover = ({ on, setOn }) => {
                             )
                         })
                     }</li> */}
+
                 </ul></div>
 
         </div>
@@ -56,7 +57,7 @@ const Portfolio = () => {
     return (
         <>
             {
-                portfolio.slice(0, 4).map((it, idx) => {
+                portfolio.slice(0, 5).map((it, idx) => {
 
                     return (
                         <div className="section">
@@ -126,7 +127,9 @@ const Portfolio = () => {
 const Training = ({ pnum }) => {
     return (
         <div className='section'>
+
             <div className="inner trn">
+                <h2>Training</h2>
                 {
                     portfolio[pnum].training.map(it => {
                         return (
@@ -145,21 +148,23 @@ const Training = ({ pnum }) => {
                                         <p>{it.type}</p></li>
 
                                     <li>
-                                        <a href={it.link} target='_blank'>
-                                            {
-                                                it.color?.map((color, idx) => {
-                                                    return (
-                                                        <button style={{ background: color }}>web site</button>
-                                                    )
-                                                })
-                                            }
-                                        </a>
+
+                                        {
+                                            it.skill.map((con, idx) => {
+                                                return (
+                                                    <a href={con.lnk} target='_blank'>
+                                                        <button>{con.nme}</button>
+                                                    </a>
+                                                )
+                                            })
+                                        }
+
 
 
                                     </li>
 
 
-                                    <li>
+                                    {/* <li>
                                         {
                                             it.color && <h3>COLOR</h3>
                                         }
@@ -172,7 +177,7 @@ const Training = ({ pnum }) => {
                                                 })
                                             }
                                         </ol>
-                                    </li>
+                                    </li> */}
                                 </ul>
 
 
@@ -202,7 +207,7 @@ const Main = () => {
             </button>
             <div className='num'>{portfolio[num - 1]?.title}</div>
 
-
+            <div className="wm"><p><span></span> 본 포트폴리오는 비상업적 취업지원 용도이며 React를 이용한 반응형 페이지로 제작되었습니다. </p></div>
             <nav className='gnb'>
 
                 <ul>
@@ -233,8 +238,8 @@ const Main = () => {
 
                             <Introduce />
                             <Portfolio />
-                            <Training pnum={4} />
                             <Training pnum={5} />
+                            {/* <Training pnum={5} /> */}
 
 
 

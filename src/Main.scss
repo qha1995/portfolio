@@ -310,6 +310,19 @@ h4 {
 
     }
 
+    .wm {
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        font-size: 15px;
+
+        span {
+            font-family: xeicon;
+
+
+        }
+    }
+
     .num {
         position: fixed;
         top: 30%;
@@ -526,7 +539,13 @@ h4 {
     overflow: hidden;
     gap: 30px;
 
-
+    h2 {
+        position: absolute;
+        font-size: 37px;
+        top: 60px;
+        left: 46.5%;
+        font-weight: 700;
+    }
 
     .photo02 {
         height: 300px;
@@ -535,18 +554,75 @@ h4 {
         z-index: 10;
         border-radius: 30px;
         box-shadow: -10px -3px 20px rgb(0 0 0 / 10%);
+        margin: 0 0 50px 0;
+
+
+        &:hover img {
+            transform: translateY(calc(-100% + 300px));
+            transition: 5s;
+        }
     }
 
-    &:hover img {
-        transform: translateY(calc(-100% + 300px));
-        transition: 5s;
+
+    .desc {
+
+        gap: 30px;
+
+
+
+        p {
+            font-size: 17px;
+        }
+
+        button {
+            font-size: 17px;
+            padding: 10px 30px;
+            color: #fff;
+            background: #333;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            cursor: pointer;
+            margin: 0 10px 0 0;
+        }
+
+
     }
 
-    .desc figure {
 
 
-        gap: 20px
+    ul> {
+        padding: 0 0 0 20PX;
+
+
+        li {
+            h3 {
+                font-weight: 700;
+                font-size: 23px;
+                letter-spacing: 0.5px;
+                margin: 0 0 10px 0;
+            }
+
+            margin: 0 0 20px 0;
+
+            ol {
+                color: #fff;
+
+                .color {
+                    font-size: 17px;
+                    padding: 10px 10px;
+                    font-weight: 300;
+                }
+            }
+        }
+
+
+
     }
+
+
+
+
+
 }
 
 
@@ -852,6 +928,20 @@ h4 {
 
         }
 
+        .wm {
+            display: none;
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            font-size: 15px;
+
+            span {
+                font-family: xeicon;
+
+
+            }
+        }
+
         .num {
             position: fixed;
             top: 30%;
@@ -950,7 +1040,7 @@ h4 {
                 font-size: 6vw;
                 font-weight: 700;
                 color: #fff;
-                transform: translateY(10%);
+                transform: translateY(-50%);
 
 
 
@@ -1060,4 +1150,97 @@ h4 {
         }
     }
 
+    .trn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        gap: 30px;
+        flex-direction: column;
+        height: auto;
+        padding: 100px 0;
+
+        h2 {
+            position: static;
+            font-size: 7vw;
+            font-weight: 700;
+        }
+
+        .photo02 {
+            height: 34vh;
+            width: 90vw;
+            overflow: hidden;
+            z-index: 10;
+            border-radius: 30px;
+            box-shadow: -10px -3px 20px rgb(0 0 0 / 10%);
+            margin: 0 0 20px 0;
+
+
+            &:hover img {
+                transform: translateY(calc(-100% + 300px));
+                transition: 5s;
+            }
+        }
+
+
+        .desc {
+
+            gap: 30px;
+
+
+
+            p {
+                font-size: 4vw;
+            }
+
+            button {
+                font-size: 3.5vw;
+                padding: 10px 30px;
+                color: #fff;
+                background: #333;
+                border: 1px solid transparent;
+                border-radius: 20px;
+                cursor: pointer;
+                margin: 0 10px 0 0;
+            }
+
+
+        }
+
+
+
+        ul> {
+            padding: 0 0 0 20PX;
+
+
+            li {
+                h3 {
+                    font-weight: 700;
+                    font-size: 5vw;
+                    letter-spacing: 0.5px;
+                    margin: 0 0 10px 0;
+                }
+
+                margin: 0 0 20px 0;
+
+                ol {
+                    color: #fff;
+
+                    .color {
+                        font-size: 5vw;
+                        padding: 10px 10px;
+                        font-weight: 300;
+                    }
+                }
+            }
+
+
+
+        }
+
+
+
+
+
+    }
 }
