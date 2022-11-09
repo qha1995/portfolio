@@ -57,10 +57,10 @@ const Portfolio = () => {
 
                                 <div className="inner">
                                     <div className="photo">
-                                        <a href=""><img src={it.src} alt={it.title} /></a>
+                                        <a href={it.link}><img src={it.src} alt={it.title} /></a>
                                     </div>
                                     <div className="mobile">
-                                        <a href=""> <img src={it.srcr} alt={it.title} /></a>
+                                        <a href={it.link}> <img src={it.srcr} alt={it.title} /></a>
                                     </div>
 
                                     <ul className="desc">
