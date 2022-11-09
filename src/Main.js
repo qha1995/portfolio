@@ -36,15 +36,7 @@ const Cover = ({ on, setOn }) => {
                         })
                     }</li>
 
-                    {/* <li>{
-                        training.map((it, idx) => {
-                            return (
-                                <li key={idx} onClick={() => setOn(!on)}>
-                                    <a href={`#${it.title}`}>{it.title}</a>
-                                </li>
-                            )
-                        })
-                    }</li> */}
+
 
                 </ul></div>
 
@@ -164,20 +156,7 @@ const Training = ({ pnum }) => {
                                     </li>
 
 
-                                    {/* <li>
-                                        {
-                                            it.color && <h3>COLOR</h3>
-                                        }
-                                        <ol>
-                                            {
-                                                it.color?.map((color, idx) => {
-                                                    return (
-                                                        <li className="color" style={{ background: color }}>{color}</li>
-                                                    )
-                                                })
-                                            }
-                                        </ol>
-                                    </li> */}
+
                                 </ul>
 
 
@@ -239,7 +218,7 @@ const Main = () => {
                             <Introduce />
                             <Portfolio />
                             <Training pnum={5} />
-                            {/* <Training pnum={5} /> */}
+
 
 
 

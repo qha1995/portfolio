@@ -18,33 +18,16 @@ const portfolio = [
     {
         id: 6, title: "6.training", training: [
             { id: 1, title: "1.현대엘리베이트", type: "React, Javascript, Jquery Responsive Web", font: ["Noto Sans Korean"], info: "React, Javascript, Jquery로 실습한 페이지입니다.", color: ["#333"], skill: [{ nme: "React", lnk: "https://qha1995.github.io/hd_web_react" }, { nme: "Javascript", lnk: "https://qha1995.github.io/hd_web_javascript/" }, { nme: "Jquery", lnk: "https://qha1995.github.io/hd_web/" }], src: process.env.PUBLIC_URL + "/assets/img/trn_01.png", link: ["https://qha1995.github.io/hd_web_react", "https://qha1995.github.io/hd_web_javascript/", "https://qha1995.github.io/hd_web/"] },
-            { id: 2, title: "2.phymongshe", type: "React Responsive Web", font: ["Noto Sans Korean"], info: "React로 실습한 페이지입니다.", color: ["#333"], skill: [{ nme: "React", lnk: "https://qha1995.github.io/phymongshe_shop/" }], srcr: process.env.PUBLIC_URL + "/assets/img/portfolio02_1.png", src: process.env.PUBLIC_URL + "/assets/img/trn_02.png" },
-            { id: 3, title: "3.깔끔이청소", type: "React Responsive Web", font: ["Noto Sans Korean"], info: "React로 실습한 페이지입니다. ", color: ["#333"], skill: [{ nme: "React", lnk: "https://qha1995.github.io/clean_spa/" }], srcr: process.env.PUBLIC_URL + "/assets/img/portfolio03_1.png", src: process.env.PUBLIC_URL + "/assets/img/trn_03.png" },
+            { id: 2, title: "2.NETFLIX", type: "React Responsive Web", font: ["Noto Sans Korean"], info: "React와 Axios로 실습한 페이지입니다.", color: ["#333"], skill: [{ nme: "React", lnk: "https://qha1995.github.io/Axios_practice01" }], src: process.env.PUBLIC_URL + "/assets/img/trn_02.png" },
+            { id: 3, title: "3.동진쎄미캠", type: "Gnuboard", font: ["Noto Sans Korean"], info: "Gnuboard를 실습한 페이지입니다. ", color: ["#333"], skill: [{ nme: "Gnuboard", lnk: "http://bomin1995.dothome.co.kr/" }], srcr: process.env.PUBLIC_URL + "/assets/img/portfolio03_1.png", src: process.env.PUBLIC_URL + "/assets/img/trn_03.png" },
 
 
         ]
     },
-    // {
-    //     id: 6, title: "6.Design work", training: [
-    //         { id: 1, title: "1.현대엘리베이트", type: "React, Javascript, Jquery Responsive Web", font: ["Noto Sans Korean"], info: "React, Javascript, Jquery로 실습한 페이지입니다.", color: ["#333"], skill: ["React", "React-router-dom", "Axios"], srcr: process.env.PUBLIC_URL + "/assets/img/trn_01.png", src: process.env.PUBLIC_URL + "/assets/img/portfolio01_2.png", link: ["https://qha1995.github.io/hd_web_react", "https://qha1995.github.io/hd_web_javascript/", "https://qha1995.github.io/hd_web/"] },
-    //         { id: 2, title: "2.phymongshe", type: "React Responsive Web", font: ["Noto Sans Korean"], info: "React로 실습한 페이지입니다.", color: ["#333"], skill: ["Fullpage"], srcr: process.env.PUBLIC_URL + "/assets/img/portfolio02_1.png", src: process.env.PUBLIC_URL + "/assets/img/trn_02.png", link: "https://qha1995.github.io/phymongshe_shop/" },
-    //         { id: 3, title: "3.깔끔이청소", type: "React Responsive Web", font: ["Noto Sans Korean"], info: "React로 실습한 페이지입니다. ", color: ["#333"], skill: ["Jquery"], srcr: process.env.PUBLIC_URL + "/assets/img/portfolio03_1.png", src: process.env.PUBLIC_URL + "/assets/img/trn_03.png", link: "https://qha1995.github.io/clean_spa/" },
 
-
-    //     ]
-    // }
 ];
 
 export { portfolio }
 
 
-// const training = [
-//     { id: 1, title: "1.현대엘리베이트", type: "React, Javascript, Jquery Responsive Web", font: ["Noto Sans Korean"], info: "React, Javascript, Jquery로 실습한 페이지입니다.", color: ["#333"], skill: ["React", "React-router-dom", "Axios"], srcr: process.env.PUBLIC_URL + "/assets/img/trn_01.png", src: process.env.PUBLIC_URL + "/assets/img/portfolio01_2.png", link: ["https://qha1995.github.io/hd_web_react", "https://qha1995.github.io/hd_web_javascript/", "https://qha1995.github.io/hd_web/"] },
-//     { id: 2, title: "2.phymongshe", type: "React Responsive Web", font: ["Noto Sans Korean"], info: "React로 실습한 페이지입니다.", color: ["#333"], skill: ["Fullpage"], srcr: process.env.PUBLIC_URL + "/assets/img/portfolio02_1.png", src: process.env.PUBLIC_URL + "/assets/img/trn_02.png", link: "https://qha1995.github.io/phymongshe_shop/" },
-//     { id: 3, title: "3.깔끔이청소", type: "React Responsive Web", font: ["Noto Sans Korean"], info: "React로 실습한 페이지입니다. ", color: ["#333"], skill: ["Jquery"], srcr: process.env.PUBLIC_URL + "/assets/img/portfolio03_1.png", src: process.env.PUBLIC_URL + "/assets/img/trn_03.png", link: "https://qha1995.github.io/clean_spa/" },
-
-
-// ];
-
-// export { training }
 
