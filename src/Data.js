@@ -161,7 +161,7 @@ const portfolio = [
           },
           { nme: "Jquery", lnk: "https://qha1995.github.io/hd_web/" },
         ],
-        src: process.env.PUBLIC_URL + "/assets/img/portfolio04_1.png",
+        src: process.env.PUBLIC_URL + "/assets/img/trn_01.png",
         link: [
           "https://qha1995.github.io/hd_web_react",
           "https://qha1995.github.io/hd_web_javascript/",
